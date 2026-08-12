@@ -1,0 +1,463 @@
+{
+  "refResults": [
+    {
+      "object": "sorvete",
+      "winnerVisual": "sorvete",
+      "winnerScore": 100,
+      "secondVisual": "boia",
+      "secondScore": 87,
+      "gap": 13,
+      "validCandidate": true,
+      "invalidReason": "MATCH_ACCEPTED"
+    },
+    {
+      "object": "boia",
+      "winnerVisual": "boia",
+      "winnerScore": 100,
+      "secondVisual": "sorvete",
+      "secondScore": 87,
+      "gap": 13,
+      "validCandidate": true,
+      "invalidReason": "MATCH_ACCEPTED"
+    },
+    {
+      "object": "balao",
+      "winnerVisual": "balao",
+      "winnerScore": 100,
+      "secondVisual": "boia",
+      "secondScore": 83,
+      "gap": 17,
+      "validCandidate": true,
+      "invalidReason": "MATCH_ACCEPTED"
+    },
+    {
+      "object": "soco",
+      "winnerVisual": "soco",
+      "winnerScore": 100,
+      "secondVisual": "boia",
+      "secondScore": 85,
+      "gap": 15,
+      "validCandidate": true,
+      "invalidReason": "MATCH_ACCEPTED"
+    },
+    {
+      "object": "tedy",
+      "winnerVisual": "tedy",
+      "winnerScore": 100,
+      "secondVisual": "princesa",
+      "secondScore": 87,
+      "gap": 13,
+      "validCandidate": true,
+      "invalidReason": "MATCH_ACCEPTED"
+    },
+    {
+      "object": "princesa",
+      "winnerVisual": "princesa",
+      "winnerScore": 100,
+      "secondVisual": "tedy",
+      "secondScore": 87,
+      "gap": 13,
+      "validCandidate": true,
+      "invalidReason": "MATCH_ACCEPTED"
+    },
+    {
+      "object": "camera",
+      "winnerVisual": "camera",
+      "winnerScore": 100,
+      "secondVisual": "coroa",
+      "secondScore": 84,
+      "gap": 16,
+      "validCandidate": true,
+      "invalidReason": "MATCH_ACCEPTED"
+    },
+    {
+      "object": "coroa",
+      "winnerVisual": "coroa",
+      "winnerScore": 100,
+      "secondVisual": "camera",
+      "secondScore": 84,
+      "gap": 16,
+      "validCandidate": true,
+      "invalidReason": "MATCH_ACCEPTED"
+    }
+  ],
+  "crossMatrix": {
+    "sorvete": {
+      "sorvete": 100,
+      "boia": 87,
+      "balao": 82,
+      "soco": 82,
+      "tedy": 83,
+      "princesa": 85,
+      "camera": 79,
+      "coroa": 81
+    },
+    "boia": {
+      "sorvete": 87,
+      "boia": 100,
+      "balao": 83,
+      "soco": 85,
+      "tedy": 83,
+      "princesa": 84,
+      "camera": 83,
+      "coroa": 83
+    },
+    "balao": {
+      "sorvete": 82,
+      "boia": 83,
+      "balao": 100,
+      "soco": 82,
+      "tedy": 76,
+      "princesa": 80,
+      "camera": 81,
+      "coroa": 83
+    },
+    "soco": {
+      "sorvete": 82,
+      "boia": 85,
+      "balao": 82,
+      "soco": 100,
+      "tedy": 78,
+      "princesa": 80,
+      "camera": 78,
+      "coroa": 83
+    },
+    "tedy": {
+      "sorvete": 83,
+      "boia": 83,
+      "balao": 76,
+      "soco": 78,
+      "tedy": 100,
+      "princesa": 87,
+      "camera": 77,
+      "coroa": 79
+    },
+    "princesa": {
+      "sorvete": 85,
+      "boia": 84,
+      "balao": 80,
+      "soco": 80,
+      "tedy": 87,
+      "princesa": 100,
+      "camera": 80,
+      "coroa": 81
+    },
+    "camera": {
+      "sorvete": 79,
+      "boia": 83,
+      "balao": 81,
+      "soco": 78,
+      "tedy": 77,
+      "princesa": 80,
+      "camera": 100,
+      "coroa": 84
+    },
+    "coroa": {
+      "sorvete": 81,
+      "boia": 83,
+      "balao": 83,
+      "soco": 83,
+      "tedy": 79,
+      "princesa": 81,
+      "camera": 84,
+      "coroa": 100
+    }
+  },
+  "scaleResults": [
+    {
+      "scalePct": "50%",
+      "avgScore": 97,
+      "avgGap": 12,
+      "accuracyPct": 100
+    },
+    {
+      "scalePct": "60%",
+      "avgScore": 97,
+      "avgGap": 11,
+      "accuracyPct": 100
+    },
+    {
+      "scalePct": "70%",
+      "avgScore": 97,
+      "avgGap": 12,
+      "accuracyPct": 100
+    },
+    {
+      "scalePct": "80%",
+      "avgScore": 97,
+      "avgGap": 12,
+      "accuracyPct": 100
+    },
+    {
+      "scalePct": "90%",
+      "avgScore": 98,
+      "avgGap": 12,
+      "accuracyPct": 100
+    },
+    {
+      "scalePct": "100%",
+      "avgScore": 98,
+      "avgGap": 13,
+      "accuracyPct": 100
+    }
+  ],
+  "jpegResults": [
+    {
+      "quality": 50,
+      "avgScore": 94,
+      "avgGap": 11,
+      "acceptedCount": "8/8"
+    },
+    {
+      "quality": 60,
+      "avgScore": 94,
+      "avgGap": 10,
+      "acceptedCount": "8/8"
+    },
+    {
+      "quality": 70,
+      "avgScore": 94,
+      "avgGap": 10,
+      "acceptedCount": "8/8"
+    },
+    {
+      "quality": 80,
+      "avgScore": 94,
+      "avgGap": 10,
+      "acceptedCount": "8/8"
+    },
+    {
+      "quality": 85,
+      "avgScore": 94,
+      "avgGap": 10,
+      "acceptedCount": "8/8"
+    },
+    {
+      "quality": 90,
+      "avgScore": 94,
+      "avgGap": 10,
+      "acceptedCount": "8/8"
+    },
+    {
+      "quality": 95,
+      "avgScore": 94,
+      "avgGap": 11,
+      "acceptedCount": "8/8"
+    }
+  ],
+  "resResults": [
+    {
+      "resolution": "64x64",
+      "avgLatencyMs": 5,
+      "avgScorePct": 92,
+      "avgGapPct": 9,
+      "acceptedCount": "8/8"
+    },
+    {
+      "resolution": "96x96",
+      "avgLatencyMs": 5.5,
+      "avgScorePct": 94,
+      "avgGapPct": 10,
+      "acceptedCount": "8/8"
+    },
+    {
+      "resolution": "128x128",
+      "avgLatencyMs": 3.8,
+      "avgScorePct": 94,
+      "avgGapPct": 10,
+      "acceptedCount": "8/8"
+    },
+    {
+      "resolution": "153x153",
+      "avgLatencyMs": 5.1,
+      "avgScorePct": 94,
+      "avgGapPct": 10,
+      "acceptedCount": "8/8"
+    },
+    {
+      "resolution": "192x192",
+      "avgLatencyMs": 5,
+      "avgScorePct": 95,
+      "avgGapPct": 11,
+      "acceptedCount": "8/8"
+    },
+    {
+      "resolution": "256x256",
+      "avgLatencyMs": 5.1,
+      "avgScorePct": 95,
+      "avgGapPct": 11,
+      "acceptedCount": "8/8"
+    }
+  ],
+  "realCropDetails": [
+    {
+      "object": "sorvete",
+      "winnerVisual": "sorvete",
+      "score": "97%",
+      "second": "boia",
+      "secondScore": "87%",
+      "gap": "10%",
+      "status": "ACCEPTED"
+    },
+    {
+      "object": "boia",
+      "winnerVisual": "boia",
+      "score": "90%",
+      "second": "soco",
+      "secondScore": "81%",
+      "gap": "9%",
+      "status": "ACCEPTED"
+    },
+    {
+      "object": "balao",
+      "winnerVisual": "balao",
+      "score": "96%",
+      "second": "coroa",
+      "secondScore": "82%",
+      "gap": "14%",
+      "status": "ACCEPTED"
+    },
+    {
+      "object": "soco",
+      "winnerVisual": "soco",
+      "score": "94%",
+      "second": "boia",
+      "secondScore": "82%",
+      "gap": "12%",
+      "status": "ACCEPTED"
+    },
+    {
+      "object": "tedy",
+      "winnerVisual": "tedy",
+      "score": "95%",
+      "second": "princesa",
+      "secondScore": "85%",
+      "gap": "10%",
+      "status": "ACCEPTED"
+    },
+    {
+      "object": "princesa",
+      "winnerVisual": "princesa",
+      "score": "96%",
+      "second": "tedy",
+      "secondScore": "87%",
+      "gap": "9%",
+      "status": "ACCEPTED"
+    },
+    {
+      "object": "camera",
+      "winnerVisual": "camera",
+      "score": "95%",
+      "second": "coroa",
+      "secondScore": "82%",
+      "gap": "13%",
+      "status": "ACCEPTED"
+    },
+    {
+      "object": "coroa",
+      "winnerVisual": "coroa",
+      "score": "93%",
+      "second": "camera",
+      "secondScore": "83%",
+      "gap": "10%",
+      "status": "ACCEPTED"
+    }
+  ],
+  "stabilityReport": [
+    {
+      "object": "sorvete",
+      "avgScore": 96,
+      "minScore": 95,
+      "maxScore": 97,
+      "avgGap": 10,
+      "acertos": 30,
+      "erros": 0,
+      "mudancasVencedor": 0,
+      "classificacao": "🟢 Excelente"
+    },
+    {
+      "object": "boia",
+      "avgScore": 89,
+      "minScore": 89,
+      "maxScore": 90,
+      "avgGap": 8,
+      "acertos": 30,
+      "erros": 0,
+      "mudancasVencedor": 0,
+      "classificacao": "🟢 Excelente"
+    },
+    {
+      "object": "balao",
+      "avgScore": 95,
+      "minScore": 94,
+      "maxScore": 96,
+      "avgGap": 13,
+      "acertos": 30,
+      "erros": 0,
+      "mudancasVencedor": 0,
+      "classificacao": "🟢 Excelente"
+    },
+    {
+      "object": "soco",
+      "avgScore": 93,
+      "minScore": 92,
+      "maxScore": 94,
+      "avgGap": 11,
+      "acertos": 30,
+      "erros": 0,
+      "mudancasVencedor": 0,
+      "classificacao": "🟢 Excelente"
+    },
+    {
+      "object": "tedy",
+      "avgScore": 94,
+      "minScore": 92,
+      "maxScore": 95,
+      "avgGap": 9,
+      "acertos": 30,
+      "erros": 0,
+      "mudancasVencedor": 0,
+      "classificacao": "🟢 Excelente"
+    },
+    {
+      "object": "princesa",
+      "avgScore": 95,
+      "minScore": 93,
+      "maxScore": 96,
+      "avgGap": 8,
+      "acertos": 30,
+      "erros": 0,
+      "mudancasVencedor": 0,
+      "classificacao": "🟢 Excelente"
+    },
+    {
+      "object": "camera",
+      "avgScore": 95,
+      "minScore": 93,
+      "maxScore": 95,
+      "avgGap": 13,
+      "acertos": 30,
+      "erros": 0,
+      "mudancasVencedor": 0,
+      "classificacao": "🟢 Excelente"
+    },
+    {
+      "object": "coroa",
+      "avgScore": 93,
+      "minScore": 92,
+      "maxScore": 94,
+      "avgGap": 10,
+      "acertos": 30,
+      "erros": 0,
+      "mudancasVencedor": 0,
+      "classificacao": "🟢 Excelente"
+    }
+  ],
+  "topConfusions": [],
+  "latencies": {
+    "avgCap": 10.9,
+    "avgRec": 5,
+    "avgAna": 0.1,
+    "avgTotal": 16
+  }
+}

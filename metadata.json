@@ -1,0 +1,10 @@
+{
+  "name": "Remix Farm Fishing AI",
+  "description": "Sistema profissional de análise estatística da Roda Gigante com visão computacional AI, histórico cronológico e previsões probabilísticas.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
